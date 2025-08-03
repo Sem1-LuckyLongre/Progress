@@ -1,228 +1,212 @@
-# 🚀 Lucky's 12-Month Web Dev + DSA Mastery Tracker
+# 🚀 Web Dev + DSA Mastery Roadmap for Beginners
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Progress-0%25-red?style=for-the-badge&logo=progress" alt="Progress">
-  <img src="https://img.shields.io/badge/DSA%20Solved-0/300-blue?style=for-the-badge&logo=leetcode" alt="DSA Solved">
-  <img src="https://img.shields.io/badge/Projects-0/6-green?style=for-the-badge&logo=react" alt="Projects">
-  <img src="https://img.shields.io/badge/Notion-Integrated-000000?style=for-the-badge&logo=notion" alt="Notion">
+  <img src="https://img.shields.io/badge/Progress-Starting_Now-brightgreen?style=for-the-badge" alt="Progress">
+  <img src="https://img.shields.io/badge/DSA_Goal-300_Problems-blue?style=for-the-badge" alt="DSA Goal">
+  <img src="https://img.shields.io/badge/Projects-6_Portfolio_Items-green?style=for-the-badge" alt="Projects">
 </div>
 
 <div align="center">
-  <a href="#-weekly-planner">📅 Weekly Planner</a> •
-  <a href="#-monthly-milestones">🗓 Monthly Milestones</a> •
-  <a href="#-resources">📚 Resources</a> •
-  <a href="#-notion-integration">🖇 Notion Setup</a> •
-  <a href="#-progress-dashboard">📊 Dashboard</a>
+  <a href="#-learning-phases">📚 Learning Phases</a> •
+  <a href="#-weekly-framework">🗓 Weekly Framework</a> •
+  <a href="#-project-milestones">🚀 Projects</a> •
+  <a href="#-resource-guide">🔍 Resources</a> •
+  <a href="#-progress-system">📈 Tracking</a>
 </div>
 
 ---
 
-## 🌟 Overview
-An interactive, visually-rich tracker for my full-stack development journey featuring:
+## 🌟 Learning Strategy
+**Project-First Approach** - Learn concepts through building rather than theory-first  
+**Progressive Difficulty** - Start with fundamentals before advanced topics  
+**Active Recall** - Weekly review sessions to reinforce learning  
 
 ```mermaid
-flowchart TD
-    A[Daily Coding] --> B(React Projects)
-    A --> C(DSA Practice)
-    B --> D[Portfolio]
-    C --> E[Interview Ready]
-    D --> F[Job Search]
-    E --> F
-```
-
-**Key Features:**
-- ✅ Visual progress tracking
-- ✅ Notion sync capabilities
-- ✅ Interactive schedule planner
-- ✅ Curated resource library
-- ✅ Motivation system
-
-[![Duplicate Notion Template](https://img.shields.io/badge/DUPLICATE_NOTION_TEMPLATE-000000?style=for-the-badge&logo=notion)](https://notion.so/template)
-
----
-
-## 📅 Weekly Planner
-
-**Color-Coded Priority System:**
-- 🔴 High Priority
-- 🟡 Medium Priority
-- 🔵 Low Priority
-
-| Day       | Tasks                                                                 | Time   | Status |
-|-----------|-----------------------------------------------------------------------|--------|--------|
-| **Monday**    | 🧠 DSA: Arrays/String (1 Easy+Medium)<br>🔧 React: Component Building | 2 hrs  | ⬜     |
-| **Tuesday**   | 🧠 DSA: HashMaps<br>⚛ React: Hooks Implementation                    | 2 hrs  | ⬜     |
-| **Wednesday** | 🧠 DSA: Sliding Window<br>🎨 UI: Color Palette Design                | 2 hrs  | ⬜     |
-| **Thursday**  | 🧠 DSA: Recursion<br>🛠 API: Firebase Integration                     | 2 hrs  | ⬜     |
-| **Friday**    | 🧠 DSA: Sorting<br>🚀 Deployment: Vercel Push                         | 2 hrs  | ⬜     |
-| **Weekend**   | 🧪 Mock Interview<br>🖥 Design Clone                                  | 3-4 hrs| ⬜     |
-
-**Progress Controls:**
-```javascript
-// Sample tracking function
-function updateProgress(task, status) {
-  const tasks = getTasks();
-  const updated = tasks.map(t => 
-    t.id === task.id ? {...t, status} : t
-  );
-  saveProgress(updated);
-}
+flowchart LR
+    A[Fundamentals] --> B[Core Skills]
+    B --> C[Portfolio Projects]
+    C --> D[Job Ready]
+    D --> E[Career Launch]
 ```
 
 ---
 
-## 🗓 Monthly Milestones
+## 📚 Learning Phases (Month-by-Month)
 
-### Phase 1: Foundation (Month 1-3)
+### 🧱 Foundation Phase (Month 1-3)
+```mermaid
+gantt
+    title Month 1-3: Web Fundamentals
+    dateFormat  YYYY-MM-DD
+    section HTML/CSS
+    Basic Layouts           :a1, 2023-01-01, 30d
+    Responsive Design       :a2, after a1, 15d
+    section JavaScript
+    DOM Manipulation        :b1, 2023-01-01, 20d
+    Async JS                :b2, after b1, 25d
+    section Tools
+    Git/GitHub              :c1, 2023-01-10, 20d
+```
+
+**Goals:**
+- Build 3 static websites
+- Complete JavaScript coding challenges
+- Learn Chrome DevTools
+
+---
+
+### ⚙️ Core Skills Phase (Month 4-6)
 ```mermaid
 pie
-    title Month 1-3 Goals
-    "Tailwind Mastery" : 30
-    "50 Easy DSA" : 50
-    "2 UI Clones" : 20
+    title Month 4-6 Focus Areas
+    “React Fundamentals” : 35
+    “Basic DSA” : 30
+    “APIs” : 25
+    “UI/UX Principles” : 10
 ```
 
-### Phase 2: Building (Month 4-6)
-- [ ] Build Todo App with Firebase
-- [ ] Complete 100 DSA problems
-- [ ] Implement 3 custom hooks
-
-### Phase 3: Advanced (Month 7-9)
-- [ ] Portfolio website v2.0
-- [ ] 20 Hard DSA problems
-- [ ] Freelance profile setup
-
-### Phase 4: Career (Month 10-12)
-- [ ] Launch 4 production projects
-- [ ] 150+ DSA solved
-- [ ] Job applications
+**Projects:**
+1. Weather app with API integration
+2. Todo list with local storage
+3. E-commerce product page
 
 ---
 
-## 📚 Resources
+### 🚀 Portfolio Phase (Month 7-9)
+**Build:**
+- Full-stack application (MERN stack)
+- Open-source contribution
+- Clone of popular site (Netflix/Spotify UI)
 
-### DSA Learning Path
-1. **Beginner**
-   - [JavaScript Algorithms](https://javascript.info/algorithms)
-   - [LeetCode Easy Patterns](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
-
-2. **Intermediate**
-   - [NeetCode 150](https://neetcode.io)
-   - [Design Gurus](https://www.designgurus.io)
-
-### React Ecosystem
-| Tool | Description | Badge |
-|------|-------------|-------|
-| [shadcn/ui](https://ui.shadcn.com) | Beautiful components | ![Stars](https://img.shields.io/github/stars/shadcn/ui) |
-| [Framer Motion](https://framer.com/motion) | Animations | ![Downloads](https://img.shields.io/npm/dm/framer-motion) |
-
-### Design Assets
-```color-palette
-#6366f1 (Primary Purple)
-#10b981 (Emerald)
-#3b82f6 (Blue)
-#f59e0b (Amber)
-#ef4444 (Red)
-```
+**DSA Focus:**
+- Solve 3 problems weekly
+- Focus on patterns: Sliding Window, Two Pointers
 
 ---
 
-## 🖇 Notion Integration
-
-**Setup Guide:**
-1. [Duplicate template](https://notion.so/template)
-2. Connect with GitHub using:
-   ```bash
-   notion-integration connect --token YOUR_TOKEN
-   ```
-3. Enable auto-sync:
-   ```bash
-   npm run sync-notion
-   ```
-
-**Notion Features:**
-- 🎯 Interactive Kanban board
-- 📅 Calendar view
-- 📊 Progress analytics
-- 💾 Code snippet database
-
----
-
-## 📊 Progress Dashboard
-
-**Current Stats:**
-```mermaid
-xychart-beta
-    title "Monthly Progress"
-    x-axis [Jan, Feb, Mar, Apr]
-    y-axis "Completed" 0-->100
-    bar [25, 40, 65, 80]
-    line [10, 30, 60, 90]
-```
-
-**Legend:**
-- Bars: DSA Problems
-- Line: Projects Completed
-
----
-
-## 🛠 Setup & Usage
-
-1. **Install dependencies:**
-   ```bash
-   npm install -g notion-cli progress-tracker
-   ```
-
-2. **Configure your tracker:**
-   ```bash
-   tracker init --dsa-goal 300 --projects 6
-   ```
-
-3. **Daily commands:**
-   ```bash
-   # Start tracking
-   tracker start --task "DSA Problem"
-   
-   # Update status
-   tracker update --complete "React Component"
-   
-   # Generate report
-   tracker report --week 25
-   ```
-
----
-
-## 🎨 UI Components Preview
-
-**Progress Card Component:**
-```jsx
-<ProgressCard 
-  title="DSA Mastery" 
-  current={45}
-  goal={300}
-  color="#6366f1"
-  icon="🧠"
-/>
-```
-
-**Project Status:**
+### 💼 Job Ready Phase (Month 10-12)
 ```mermaid
 journey
-    title Project Completion
-    section Todo App
-      Backend: 5: Completed
-      Frontend: 3: In Progress
-      Design: 2: Pending
+    title Preparation Path
+    section Resume
+      Portfolio: 5: Done
+      GitHub: 5: Done
+    section Interview
+      DSA: 4: In Progress
+      System Design: 3: Pending
+    section Networking
+      LinkedIn: 5: Done
 ```
 
 ---
 
+## 🗓 Weekly Framework
+
+| Day       | Focus Area                  | Task Examples                          | Time   |
+|-----------|-----------------------------|----------------------------------------|--------|
+| **Mon**   | Core Concepts               | Learn React hooks, CSS Grid tutorial   | 90 min |
+| **Tue**   | DSA Practice               | 1 LeetCode Easy problem                | 60 min |
+| **Wed**   | Project Work               | Build authentication flow              | 2 hrs  |
+| **Thu**   | Review & Refactor          | Code optimization, debug previous work| 90 min |
+| **Fri**   | New Technology             | Explore new library (e.g. Redux)       | 60 min |
+| **Sat**   | Creative Project           | UI design challenge                    | 2 hrs  |
+| **Sun**   | Rest & Planning            | Weekly review, plan next week          | 30 min |
+
+**Key:**  
+🔴 = Critical | 🟡 = Important | 🔵 = Bonus
+
+---
+
+## 🚀 Project Milestones
+
+### Tiered Project Approach:
+```mermaid
+flowchart TD
+    A[Level 1: Static Sites] --> B[Level 2: JS Apps]
+    B --> C[Level 3: Fullstack Apps]
+    C --> D[Level 4: Complex Systems]
+```
+
+1. **Beginner Projects**
+   - Personal portfolio
+   - Restaurant menu page
+   - Calculator app
+
+2. **Intermediate Projects**
+   - Movie database browser
+   - Real-time chat app
+   - E-commerce cart
+
+3. **Advanced Portfolio Pieces**
+   - Social media clone
+   - Stock trading dashboard
+   - AI-powered application
+
+---
+
+## 🔍 Resource Guide
+
+### Essential Learning Path:
+```mermaid
+mindmap
+  root((Web Dev))
+    HTML/CSS
+      MDN Web Docs
+      CSS-Tricks
+    JavaScript
+      FreeCodeCamp
+      JavaScript30
+    React
+      Official Docs
+      Epic React
+    DSA
+      LeetCode
+      Grokking Algorithms
+```
+
+### Tool Recommendations:
+| Purpose       | Tools                                                                 |
+|---------------|-----------------------------------------------------------------------|
+| **CSS**       | Tailwind, CSS Modules, Sass                                          |
+| **Deployment**| Vercel, Netlify, GitHub Pages                                        |
+| **Design**    | Figma, Coolors, Undraw illustrations                                 |
+| **Backend**   | Express, Firebase, MongoDB                                           |
+
+---
+
+## 📈 Progress System
+
+### Tracking Metrics:
+```mermaid
+xychart-beta
+    title “Monthly Progress Tracker”
+    x-axis [1, 2, 3, 4, 5, 6]
+    y-axis “Completion %” 0 --> 100
+    bar [15, 30, 45, 60, 75, 90]
+    line [10, 25, 50, 70, 85, 95]
+```
+
+**How to track:**
+1. Weekly GitHub commits
+2. LeetCode progress tracker
+3. Project completion checklist
+4. Learning journal entries
+
+### Notion Template:
+[![Duplicate Template](https://img.shields.io/badge/Notion_Template-000000?style=for-the-badge&logo=notion)](https://notion.so/template)
+
+---
+
+## 💡 Motivation Tips
+
+1. **Celebrate micro-wins** - Completed a tricky problem? Share it!
+2. **Pair programming** - Join communities like freeCodeCamp
+3. **80/20 Rule** - Focus on high-impact technologies (React, Node, JS)
+4. **Build in public** - Document your journey on Twitter/Dev.to
+
 <div align="center">
-  <h3>Keep the Momentum Going!</h3>
   <blockquote>
-  "Consistency transforms ordinary into extraordinary" — Lucky
+  "The expert in anything was once a beginner" - Start today!
   </blockquote>
-  
-  [![Twitter Follow](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com/yourhandle)
-  [![GitHub Stars](https://img.shields.io/github/stars/yourrepo?style=social)](https://github.com/yourrepo)
 </div>
+```
